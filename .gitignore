@@ -1,0 +1,37 @@
+# Build and verification output
+[Bb]in/
+[Oo]bj/
+artifacts/
+[Tt]est[Rr]esults/
+*.trx
+*.nupkg
+*.snupkg
+*.binlog
+*.log
+
+# Local solutions and IDE state
+*.sln
+*.slnx
+*.slnf
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.rsuser
+*.DotSettings.user
+
+# Local caches and temporary files
+packages/
+__pycache__/
+*.pyc
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Local credentials and signing material
+.env
+.env.*
+*.pfx
+*.publishsettings

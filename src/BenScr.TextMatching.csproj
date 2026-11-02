@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <PackageId>BenScr.TextMatching</PackageId>
+    <AssemblyName>BenScr.TextMatching</AssemblyName>
+    <RootNamespace>BenScr.TextMatching</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>Ben Schneider</Authors>
+    <Description>Unicode scalar Levenshtein distance and bounded deterministic fuzzy matching with explicit input and work limits.</Description>
+    <PackageTags>text;unicode;levenshtein;fuzzy;matching;distance</PackageTags>
+    <PackageProjectUrl>https://github.com/Ben-Scr/BenScr.TextMatching</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Ben-Scr/BenScr.TextMatching</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="/" />
+    <None Include="../LICENSE.txt" Pack="true" PackagePath="/" />
+    <None Include="../branding/BenScr_Icon_Master.png" Pack="true" PackagePath="/icon.png" />
+  </ItemGroup>
+</Project>

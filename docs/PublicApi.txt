@@ -1,0 +1,18 @@
+BenScr.TextMatching.TextMatch : System.Object
+  Method Int32 get_Distance()
+  Method Int32 get_Index()
+  Method System.String get_Candidate()
+  Property Int32 Distance
+  Property Int32 Index
+  Property System.String Candidate
+BenScr.TextMatching.TextMatcher : System.Object
+  Constructor Void .ctor(Int32, Int32, Int64)
+  Method Int32 Distance(System.String, System.String)
+  Method Int32 get_MaxCandidates()
+  Method Int32 get_MaxScalarLength()
+  Method Int64 get_MaxCellUpdates()
+  Method System.Collections.Generic.IReadOnlyList`1[BenScr.TextMatching.TextMatch] FindClosest(System.String, System.Collections.Generic.IEnumerable`1[System.String], Int32, Int32)
+  Method System.Nullable`1[System.Int32] DistanceWithin(System.String, System.String, Int32)
+  Property Int32 MaxCandidates
+  Property Int32 MaxScalarLength
+  Property Int64 MaxCellUpdates
